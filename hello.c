@@ -7,8 +7,7 @@ int main() {
     printf("Bot : Enter an operator from (+, -, *, /): ");
     scanf("%c", &operator);
 
-    printf("Enter two operands: ");
-    scanf("%lf %lf", &num1, &num2);
+  
 
     switch (operator) {
         case '+':
